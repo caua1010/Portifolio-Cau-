@@ -36,11 +36,25 @@ strong{
   color: var(--cor-destaque);
 }
 
-a{
-  color: var (--cor-texto);
-  font-size: 18px;
-  text-decorantio: none;
-  background-color: var (--cor-destaque);
+.apresentacao_links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.apresentacao_links_link{
+  width: 378px;
+  border: 2px solid var(--cor-destaque);
+  color: var(--cor-texto);
+  font-size: 24px;
+  text-decoration: none;
+  padding: 21.5px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .foto{
